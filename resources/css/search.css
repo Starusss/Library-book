@@ -1,0 +1,144 @@
+/* Styles for wrapping the search box */
+
+.main{
+}
+.search {
+    width: 50%;
+    margin: 50px auto;
+}
+.Product {
+  width: 50%;
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* show product */
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  .imw {
+    width: 65%;
+    position: relative;
+  }
+  .product {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #000;
+  }
+  
+  .ccc:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .cc1 {
+    width: 82%;
+    background: #fff;
+    color: #000;
+    padding: 4px 8px;
+    border: 1px solid #000;
+    height: 40px;
+    border-radius: 7px;
+  }
+  @media only screen and (max-width: 553px) {
+    .card {
+      margin-top: 25px;
+    }
+  }
+  .card {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .imw {
+    object-fit: cover;
+    width: 65%;
+    position: relative;
+  }
+ 
+  a {
+    color: #0d6efd;
+    text-decoration: none !important;
+}
+
+/* menu */
+#menu {
+	width: 100%;
+	height: 70px;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+}
+#menu .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1148px;
+	margin: 0 auto;
+}
+
+.menu_links {
+	height: 70px;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu_links ul {
+	display: flex;
+}
+.menu_links ul li {
+	list-style: none;
+	font-size: 12px;
+	color: #111111;
+	padding: 27px;
+	text-transform: uppercase;
+}
